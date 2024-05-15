@@ -9,7 +9,7 @@ import { Orders } from "./containers/Orders/Orders";
 
 function App() {
   return (
-    <BrowserRouter basename="/burgers">
+    <BrowserRouter basename="/burger">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<BurgerBuilder />} />
